@@ -1,0 +1,50 @@
+{
+    "token": "",
+    "prefix": "?",
+    "color": "#6e396b",
+    "author": "Austin#9949",
+
+    "bot_values": {
+        "activity": "Happily serving the Lillac Lullaby community."
+    },
+
+    "sql": {
+
+        "host": "localhost",
+        "user": "development",
+        "password": "",
+        "database": "lilac"
+
+    },
+
+    "errors": {
+
+        "OU-4000-1C": {
+            "name": "Order Log SQL Error",
+            "description": "There was an error in one of the SQL executions regarding order logging. \nSend this error log to a Dev alongside a timestamp.",
+            "level": "YELLOW"
+        },
+        "OU-4000-2C": {
+            "name": "Orders NullPointerException",
+            "description": "While trying to grab the order numbers from the SQL database the value returned null.\nThis is bot operation critical. Report it to a Dev alongside a timestamp.",
+            "level": "RED"
+        },
+        "GO-4000-1C": {
+            "name": "Orders Query SQL Error",
+            "description": "While attempting to grab an order's number status there was a SQL issue. Please report this to a Dev.",
+            "level": "GREEN"
+        },
+        "GX1" : {
+
+            "name": "Generic Error",
+            "description": "A generic error within the code has occured. Report this to Dev.",
+            "level": "YELLOW"
+        },
+        "DC-4API-OR": {
+            "name": "Discord API Error | Orders",
+            "description": "There was an error executing the action on behalf of the discord API.",
+            "level": "RED"
+        }
+
+    }
+}

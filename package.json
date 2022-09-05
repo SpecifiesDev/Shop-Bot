@@ -1,0 +1,13 @@
+{
+    "name": "lilac-lullaby",
+    "version": "1.0.0",
+    "description": "",
+    "main": "bot.js",
+    "author": "csdad, csmom",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.27.2",
+        "discord.js": "^14.3.0",
+        "mysql": "^2.18.1"
+    }
+}
